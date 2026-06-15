@@ -1,0 +1,101 @@
+{
+  "hero": {
+    "badge": "Coming Soon",
+    "logo": "DaiMe",
+    "tagline": "Be your seed. Love your life.",
+    "title_line1": "A place to love your life,",
+    "title_line2": "just as you are.",
+    "cta": "Join the waitlist",
+    "signup_desc": "A place where you can express every side of yourself, and be accepted — that place doesn't exist yet.",
+    "signup_note": "We'll notify you at launch · Free · No spam"
+  },
+  "stat": {
+    "label": "Why DaiMe matters",
+    "number": "43%",
+    "desc": "43% of teens have felt they 'want to disappear' or are struggling. Japan has one of the highest suicide rates among developed nations, and loneliness keeps rising.",
+    "factor1": "Loss of self amid growing social diversity",
+    "factor2": "Performing a version of yourself, shaped by social media algorithms",
+    "factor3": "Fewer chances to decide for yourself, as convenience grows",
+    "core": "There's no place to express your true, many-sided self — and be accepted.",
+    "transition": "So DaiMe is building a place where you can simply be yourself.",
+    "flower_word": "— The yellow daisy means \"being your true self.\"",
+    "origin_label": "Where the name comes from",
+    "origin_daisy": "Daisy",
+    "origin_daisy_meaning": "your true self",
+    "origin_me": "Me",
+    "origin_me_meaning": "me",
+    "origin_daime": "DaiMe",
+    "origin_daime_meaning": "/ˈdeɪmi/",
+    "origin_conclusion": "To cherish yourself, just as you are."
+  },
+  "how": {
+    "label": "What you can do on DaiMe",
+    "title": "Grow yourself in three steps.",
+    "step1_title": "Put yourself into words with tags",
+    "step1_desc": "Express what you love and what you struggle with, all as tags. Naming it is the first step to seeing yourself.",
+    "step2_title": "Meet people who share your words",
+    "step2_desc": "Connect with people who share your tags in anonymous rooms. You were never alone.",
+    "step3_title": "Watch yourself grow in My Garden",
+    "step3_desc": "Your tags bloom into daisies, growing your own garden. Self-acceptance you can actually see."
+  },
+  "tags": {
+    "label": "Tags on DaiMe",
+    "title": "Your light and your shadow — both are you.",
+    "daisy_type": "Daisy Tags (Light)",
+    "daisy_examples": ["#MusicLover", "#Artist", "#NightOwl", "#FoodieAtHeart"],
+    "daisy_desc": "What you love and what you're good at. The parts of you that shine.",
+    "seed_type": "Seed Tags (Shadow)",
+    "seed_examples": ["#Shy", "#Perfectionist", "#HSP", "#WentThroughHardTimes"],
+    "seed_desc": "Your weaknesses and shadows. Those are precious seeds too.",
+    "bridge": "Connect anonymously with people who share your tags. Your words become someone's place to belong."
+  },
+  "growth": {
+    "label": "A story of growth",
+    "title": "From a seed, into a flower.",
+    "stage1_name": "Sow the seed",
+    "stage1_title": "Know yourself",
+    "stage1_quote": "\"Know thyself.\" — Socrates",
+    "stage2_name": "Roots grow",
+    "stage2_title": "Face yourself",
+    "stage2_quote": "\"Look within.\" — Marcus Aurelius",
+    "stage3_name": "A sprout appears",
+    "stage3_title": "Awareness is born",
+    "stage3_quote": "\"It takes a village to raise a person.\" — African proverb",
+    "stage4_name": "It blooms",
+    "stage4_title": "Accept who you've faced",
+    "stage4_quote": "You faced it well. You're allowed to be exactly as you are.",
+    "stage5_name": "It bears fruit",
+    "stage5_title": "Come to love yourself",
+    "stage5_quote": "\"Love yourself.\" — Buddha"
+  },
+  "quotes": {
+    "label": "Words of growth",
+    "title": "Let these words push your next step forward.",
+    "quote1_label": "Sprouting",
+    "quote1_main": "You put it into words. That alone is already amazing.",
+    "quote1_sub": "Trying to understand yourself is something most people never do. You've already taken a step forward.",
+    "quote2_label": "Budding",
+    "quote2_main": "Someone out there shares your words. You were never alone.",
+    "quote2_sub": "Your words are reaching someone's heart. That's something truly valuable.",
+    "quote3_label": "Blooming",
+    "quote3_main": "You faced it well. You're allowed to be exactly as you are.",
+    "quote3_sub": "Flowers bloom, and seeds grow. DaiMe is a place where you can love yourself."
+  },
+  "cta": {
+    "tagline": "Be your seed. Love your life.",
+    "title": "Why not plant your seed?",
+    "desc": "Light and shadow, just as they are. Begin your journey of self-love with DaiMe. We'll let you know the moment we launch.",
+    "placeholder": "Enter your email",
+    "button": "Sign up",
+    "note": "Free · No spam · Unsubscribe anytime"
+  },
+  "form": {
+    "emailLabel": "Email address",
+    "errorInvalidEmail": "Please enter a valid email address",
+    "successMessage": "Thanks for signing up! 🌱 We'll let you know when we launch"
+  },
+  "footer": {
+    "copyright": "© 2026 DaiMe",
+    "privacy": "Privacy Policy"
+  }
+}

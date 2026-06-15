@@ -1,0 +1,101 @@
+{
+  "hero": {
+    "badge": "即将推出",
+    "logo": "DaiMe",
+    "tagline": "Be your seed. Love your life.",
+    "title_line1": "做你自己，",
+    "title_line2": "热爱你的人生。",
+    "cta": "预约注册",
+    "signup_desc": "能表达自己的多面性、并被接纳的地方——这样的归属，世界上还不存在。",
+    "signup_note": "上线时通知你・免费・无垃圾邮件"
+  },
+  "stat": {
+    "label": "为什么需要 DaiMe",
+    "number": "43%",
+    "desc": "43%的中学生曾感到「想消失・很痛苦」。日本的自杀率位居发达国家前列，感到孤独的人也在持续增加。",
+    "factor1": "在多元化社会扩张中，自我的迷失",
+    "factor2": "被社交媒体算法塑造、不断「扮演」的自己",
+    "factor3": "随着便利的发展，自我决定的机会在减少",
+    "core": "没有一个能表达多元自我、并被接纳的地方。",
+    "transition": "所以，DaiMe 要打造一个能做自己的地方。",
+    "flower_word": "— 黄色雏菊的花语是「真实的自己」。",
+    "origin_label": "名字的由来",
+    "origin_daisy": "Daisy",
+    "origin_daisy_meaning": "真实的自己",
+    "origin_me": "Me",
+    "origin_me_meaning": "我",
+    "origin_daime": "DaiMe",
+    "origin_daime_meaning": "黛米",
+    "origin_conclusion": "珍爱真实的自己。"
+  },
+  "how": {
+    "label": "在 DaiMe 你能做什么",
+    "title": "用三个步骤，培育自己。",
+    "step1_title": "用标签把自己化为语言",
+    "step1_desc": "喜欢的、不擅长的，都化作标签来表达。仅仅说出口，就能开始看见自己。",
+    "step2_title": "遇见拥有相同话语的人",
+    "step2_desc": "在匿名房间里，与拥有相同标签的人相遇。你并不孤单。",
+    "step3_title": "在 My Garden 见证成长",
+    "step3_desc": "标签化作雏菊，绽放出属于你的花园。自我肯定，化为看得见的成长。"
+  },
+  "tags": {
+    "label": "DaiMe 的标签",
+    "title": "光与影，都是你自己。",
+    "daisy_type": "Daisy 标签（光）",
+    "daisy_examples": ["#音乐爱好者", "#爱画画", "#夜猫子", "#美食控"],
+    "daisy_desc": "喜欢的、擅长的。你闪耀的那一面。",
+    "seed_type": "Seed 标签（影）",
+    "seed_examples": ["#怕生", "#完美主义", "#高敏感人群", "#曾经不上学"],
+    "seed_desc": "脆弱与阴影。那也是珍贵的种子。",
+    "bridge": "与拥有相同标签的人匿名相连。你的话语，会成为某个人的归属之地。"
+  },
+  "growth": {
+    "label": "成长的故事",
+    "title": "从种子，到花朵。",
+    "stage1_name": "播下种子",
+    "stage1_title": "认识自己",
+    "stage1_quote": "「了解你自己。」— 苏格拉底",
+    "stage2_name": "根系生长",
+    "stage2_title": "面对自己",
+    "stage2_quote": "「审视你的内心。」— 马可·奥勒留",
+    "stage3_name": "发出新芽",
+    "stage3_title": "觉察诞生",
+    "stage3_quote": "「人因他人而成为人。」— 非洲谚语",
+    "stage4_name": "花朵绽放",
+    "stage4_title": "认可面对过的自己",
+    "stage4_quote": "你已经很好地面对了自己。做真实的你，就好。",
+    "stage5_name": "结出果实",
+    "stage5_title": "开始喜欢自己",
+    "stage5_quote": "「爱你自己。」— 佛陀"
+  },
+  "quotes": {
+    "label": "成长的话语",
+    "title": "用话语，推动你向前一步。",
+    "quote1_label": "萌芽",
+    "quote1_main": "你把自己的事情说出来了。仅仅这样，就已经很了不起了。",
+    "quote1_sub": "试图了解自己，本身就是大多数人不会做的事。你已经迈出了一步。",
+    "quote2_label": "花蕾",
+    "quote2_main": "和你拥有相同话语的人，是存在的。你并不孤单。",
+    "quote2_sub": "你的话语，正传达到某个人的心里。那是非常有价值的事。",
+    "quote3_label": "开花",
+    "quote3_main": "你已经很好地面对了自己。做真实的你，就好。",
+    "quote3_sub": "花会开，种子会成长。DaiMe 是一个能让你爱自己的地方。"
+  },
+  "cta": {
+    "tagline": "Be your seed. Love your life.",
+    "title": "要不要，播下你的种子？",
+    "desc": "光与影，都保持原样。在 DaiMe，开启爱自己的旅程。上线时，第一时间通知你。",
+    "placeholder": "输入邮箱地址",
+    "button": "注册",
+    "note": "免费・无垃圾邮件・随时可取消"
+  },
+  "form": {
+    "emailLabel": "邮箱地址",
+    "errorInvalidEmail": "请输入有效的邮箱地址",
+    "successMessage": "感谢您的注册🌱 上线时我们会通知您"
+  },
+  "footer": {
+    "copyright": "© 2026 DaiMe",
+    "privacy": "隐私政策"
+  }
+}

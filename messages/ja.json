@@ -1,0 +1,101 @@
+{
+  "hero": {
+    "badge": "Coming Soon",
+    "logo": "DaiMe",
+    "tagline": "Be your seed. Love your life.",
+    "title_line1": "ありのままで、",
+    "title_line2": "人生を愛でる場所。",
+    "cta": "事前登録する",
+    "signup_desc": "自分の多様性を表現し、受け入れてもらえる。そんな居場所が、まだ世界にはない。",
+    "signup_note": "リリース時にお知らせします・無料・スパムなし"
+  },
+  "stat": {
+    "label": "なぜ DaiMe が必要か",
+    "number": "43%",
+    "desc": "中高生の43%が「死にたい・辛い」と感じている。日本の自殺率は先進国最高水準。孤独を感じている人が、増え続けている。",
+    "factor1": "多様性社会の拡大による、自己の喪失",
+    "factor2": "SNSのアルゴリズムが生む、「演じる自分」",
+    "factor3": "便利さの前進による、自己決定の機会の損失",
+    "core": "「自分の多様性を表現し、認めてくれる場所」が、ない。",
+    "transition": "だから、ありのままでいられる場所を、DaiMeが作る。",
+    "flower_word": "― 黄色いデイジーの花言葉は「ありのままの自分」。",
+    "origin_label": "名前の由来",
+    "origin_daisy": "Daisy",
+    "origin_daisy_meaning": "ありのままの自分",
+    "origin_me": "Me",
+    "origin_me_meaning": "わたし",
+    "origin_daime": "DaiMe",
+    "origin_daime_meaning": "デイミー",
+    "origin_conclusion": "ありのままの自分を、愛でる。"
+  },
+  "how": {
+    "label": "DaiMeでできること",
+    "title": "3つのステップで、自分を育てる。",
+    "step1_title": "タグで自分を言葉にする",
+    "step1_desc": "好きなこと・苦手なこと、どちらもタグとして表現。言葉にするだけで、自分が見えてくる。",
+    "step2_title": "同じ言葉を持つ人と出会う",
+    "step2_desc": "同じタグの人と匿名ルームで繋がる。あなたは、一人じゃなかった。",
+    "step3_title": "My Gardenで成長を見る",
+    "step3_desc": "タグがデイジーになり、あなただけの庭が咲いていく。自己肯定感が、目に見える形で育つ。"
+  },
+  "tags": {
+    "label": "DaiMeのタグ",
+    "title": "光も影も、あなたそのもの。",
+    "daisy_type": "Daisyタグ（光）",
+    "daisy_examples": ["#音楽が好き", "#絵を描く", "#夜型人間", "#料理好き"],
+    "daisy_desc": "好きなこと・得意なこと。あなたの輝く部分。",
+    "seed_type": "Seedタグ（影）",
+    "seed_examples": ["#人見知り", "#完璧主義", "#HSP気質", "#不登校経験"],
+    "seed_desc": "弱さ・影の部分。それも大切なタネ。",
+    "bridge": "同じタグを持つ人と、匿名で繋がれる。あなたの言葉が、誰かの居場所になる。"
+  },
+  "growth": {
+    "label": "成長のものがたり",
+    "title": "タネが、花になるまで。",
+    "stage1_name": "タネを蒔く",
+    "stage1_title": "自分を知る",
+    "stage1_quote": "「汝自身を知れ。」— ソクラテス",
+    "stage2_name": "根が伸びる",
+    "stage2_title": "自分と向き合う",
+    "stage2_quote": "「自分の内側を見よ。」— マルクス・アウレリウス",
+    "stage3_name": "芽が出る",
+    "stage3_title": "気づきが生まれる",
+    "stage3_quote": "「人は人によって人になる。」— アフリカのことわざ",
+    "stage4_name": "花が咲く",
+    "stage4_title": "向き合えた自分を認める",
+    "stage4_quote": "よく向き合えたね。ありのままのあなたで、いい。",
+    "stage5_name": "実になる",
+    "stage5_title": "自分を好きになれる",
+    "stage5_quote": "「あなた自身を愛しなさい。」— ブッダ"
+  },
+  "quotes": {
+    "label": "成長のことば",
+    "title": "あなたの一歩を、言葉が後押しする。",
+    "quote1_label": "芽吹き",
+    "quote1_main": "自分のこと、言葉にできた。それだけで、もう十分すごいよ。",
+    "quote1_sub": "自分を知ろうとすること自体、ほとんどの人がやらないことだよ。あなたはもう、一歩踏み出してる。",
+    "quote2_label": "つぼみ",
+    "quote2_main": "あなたと同じ言葉を持つ人が、いたよ。あなたは、一人じゃなかった。",
+    "quote2_sub": "あなたの言葉が誰かの心に届いてる。それってすごく、価値のあることだよ。",
+    "quote3_label": "開花",
+    "quote3_main": "よく向き合えたね。ありのままのあなたで、いい。",
+    "quote3_sub": "花は咲き、種は育つ。DaiMeは己を愛せる居場所です。"
+  },
+  "cta": {
+    "tagline": "Be your seed. Love your life.",
+    "title": "あなたのタネを、蒔いてみませんか。",
+    "desc": "光も影も、そのままで。DaiMeで、自分を愛でる旅を始めよう。リリース時に、最初にお知らせします。",
+    "placeholder": "メールアドレスを入力",
+    "button": "登録する",
+    "note": "無料・スパムなし・いつでも解除できます"
+  },
+  "form": {
+    "emailLabel": "メールアドレス",
+    "errorInvalidEmail": "正しいメールアドレスを入力してください",
+    "successMessage": "登録ありがとうございます🌱 リリース時にご連絡します"
+  },
+  "footer": {
+    "copyright": "© 2026 DaiMe",
+    "privacy": "プライバシーポリシー"
+  }
+}
