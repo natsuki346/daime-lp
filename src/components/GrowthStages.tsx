@@ -3,13 +3,13 @@
 import { useTranslations } from "next-intl";
 import { useFadeIn } from "@/hooks/useFadeIn";
 
-const ICONS = ["🌰", "🌿", "🌱", "🌸", "🍎"];
+const ICONS = ["🌰", "🌿", "🌱", "🌸"];
 
 export default function GrowthStages() {
   const t = useTranslations("growth");
   const { ref, visible } = useFadeIn<HTMLDivElement>();
 
-  const stages = [1, 2, 3, 4, 5].map((n, i) => ({
+  const stages = [1, 2, 3, 4].map((n, i) => ({
     icon: ICONS[i],
     title: t(`stage${n}_name`),
     subtitle: t(`stage${n}_title`),
