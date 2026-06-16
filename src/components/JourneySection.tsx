@@ -229,9 +229,23 @@ export default function JourneySection() {
                 >
                   {t(`stage${stage.n}_feature`)}
                 </span>
-                <p className="mt-3 text-[15px] italic leading-relaxed text-daime-text/80">
-                  {t(`stage${stage.n}_quote`)}
-                </p>
+                {(() => {
+                  const [quote, author] = t(`stage${stage.n}_quote`).split(
+                    /\s*[—―]\s*/
+                  );
+                  return (
+                    <>
+                      <p className="mt-3 text-[15px] italic leading-relaxed text-daime-text/80">
+                        {quote}
+                      </p>
+                      {author && (
+                        <p className="mt-1 text-[13px] text-daime-muted">
+                          &mdash; {author}
+                        </p>
+                      )}
+                    </>
+                  );
+                })()}
               </div>
             </div>
           ))}
