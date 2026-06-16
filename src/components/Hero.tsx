@@ -42,13 +42,6 @@ export default function Hero() {
         />
 
         <div className="relative z-10 flex h-full flex-col items-center px-6 text-center">
-          <span
-            className="hero-fade-in mt-6 rounded-full bg-daime-text px-4 py-1.5 text-xs font-medium tracking-wide text-daime-daisy"
-            style={{ "--delay": "0.3s" } as React.CSSProperties}
-          >
-            {t("badge")}
-          </span>
-
           <div className="flex flex-1 flex-col items-center justify-center">
             <p
               className="hero-fade-up font-serif-jp text-5xl font-bold text-daime-text sm:text-[66px]"
@@ -87,6 +80,13 @@ export default function Hero() {
             >
               {t("cta")} →
             </button>
+
+            <span
+              className="hero-fade-in mt-2.5 rounded-full bg-daime-text px-4 py-1.5 text-xs font-medium tracking-wide text-daime-daisy"
+              style={{ "--delay": "1.8s" } as React.CSSProperties}
+            >
+              {t("badge")}
+            </span>
           </div>
         </div>
       </section>
