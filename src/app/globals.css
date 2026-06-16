@@ -183,12 +183,24 @@ body {
   75%  { transform: translate(-2px, -7px) rotate(3deg); }
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .float-daisy  { animation: float-daisy  7s ease-in-out infinite; }
-  .float-seed   { animation: float-seed   8s ease-in-out infinite; }
-  .float-bridge { animation: float-bridge 9s ease-in-out infinite; }
-  .wob1 { animation: wob1 3.8s ease-in-out infinite; }
-  .wob2 { animation: wob2 4.2s ease-in-out infinite; }
-  .wob3 { animation: wob3 4.7s ease-in-out infinite; }
-  .wob4 { animation: wob4 5.1s ease-in-out infinite; }
+/* Animations run by default so they reliably play in normal environments. */
+.float-daisy  { animation: float-daisy  7s ease-in-out infinite; will-change: transform; }
+.float-seed   { animation: float-seed   8s ease-in-out infinite; will-change: transform; }
+.float-bridge { animation: float-bridge 9s ease-in-out infinite; will-change: transform; }
+.wob1 { animation: wob1 3.8s ease-in-out infinite; will-change: transform; }
+.wob2 { animation: wob2 4.2s ease-in-out infinite; will-change: transform; }
+.wob3 { animation: wob3 4.7s ease-in-out infinite; will-change: transform; }
+.wob4 { animation: wob4 5.1s ease-in-out infinite; will-change: transform; }
+
+/* Only stop when the user explicitly asks to reduce motion. */
+@media (prefers-reduced-motion: reduce) {
+  .float-daisy,
+  .float-seed,
+  .float-bridge,
+  .wob1,
+  .wob2,
+  .wob3,
+  .wob4 {
+    animation: none;
+  }
 }

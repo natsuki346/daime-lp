@@ -64,7 +64,7 @@ export default function TagsSection() {
     <section className="bg-daime-cream px-6 py-16">
       <div
         ref={ref}
-        className={`mx-auto max-w-lg text-center transition-all duration-700 ${
+        className={`mx-auto max-w-6xl text-center transition-all duration-700 ${
           visible ? "translate-y-0 opacity-100" : "translate-y-4 opacity-0"
         }`}
       >
@@ -76,10 +76,10 @@ export default function TagsSection() {
           {t("title")}
         </h2>
 
-        <div className="mt-10 flex flex-col gap-[22px] sm:flex-row">
+        <div className="mt-10 flex flex-col gap-[22px] sm:flex-row sm:gap-8">
           {/* Daisy card */}
           <div
-            className="float-daisy flex-1 rounded-2xl border p-5 text-center"
+            className="float-daisy flex-1 rounded-2xl border p-6 text-center sm:p-8"
             style={{ backgroundColor: "#FAF0C8", borderColor: "#E8C96A" }}
           >
             <DaisyIcon />
@@ -110,7 +110,7 @@ export default function TagsSection() {
 
           {/* Seed card */}
           <div
-            className="float-seed flex-1 rounded-2xl border p-5 text-center"
+            className="float-seed flex-1 rounded-2xl border p-6 text-center sm:p-8"
             style={{ backgroundColor: "#EDE0D0", borderColor: "#C4A87E" }}
           >
             <SeedIcon />
@@ -140,7 +140,7 @@ export default function TagsSection() {
           </div>
         </div>
 
-        <div className="float-bridge mt-8 rounded-2xl bg-daime-green p-6 text-center">
+        <div className="float-bridge mx-auto mt-8 max-w-3xl rounded-2xl bg-daime-green p-6 text-center">
           <p className="text-sm font-medium leading-relaxed text-white">
             {t("bridge")}
           </p>
