@@ -229,7 +229,7 @@ export default function JourneySection() {
                 >
                   {t(`stage${stage.n}_feature`)}
                 </span>
-                <p className="mt-2 text-[11px] italic text-daime-muted">
+                <p className="mt-3 text-[15px] italic leading-relaxed text-daime-text/80">
                   {t(`stage${stage.n}_quote`)}
                 </p>
               </div>
