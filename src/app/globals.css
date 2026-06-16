@@ -332,6 +332,10 @@ body {
   transform-box: fill-box;
   transform-origin: center;
 }
+.bob {
+  transform-box: fill-box;
+  transform-origin: center;
+}
 .journey-row.show .sway {
   animation: j-sway 4s ease-in-out 1.3s infinite;
 }
@@ -340,6 +344,9 @@ body {
 }
 .journey-row.show .float {
   animation: j-float 5s ease-in-out 1.3s infinite;
+}
+.journey-row.show .bob {
+  animation: j-bob 3.2s ease-in-out 1.3s infinite;
 }
 
 @keyframes jpop {
@@ -378,6 +385,15 @@ body {
   }
   50% {
     transform: translateY(-5px);
+  }
+}
+@keyframes j-bob {
+  0%,
+  100% {
+    transform: translateY(0) rotate(-2deg);
+  }
+  50% {
+    transform: translateY(-4px) rotate(2deg);
   }
 }
 
@@ -433,7 +449,8 @@ body {
   .journey-row.show .fin,
   .journey-row.show .sway,
   .journey-row.show .spin,
-  .journey-row.show .float {
+  .journey-row.show .float,
+  .journey-row.show .bob {
     animation: none;
   }
 }

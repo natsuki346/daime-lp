@@ -57,7 +57,9 @@ function Illustration({ stage }: { stage: number }) {
     return (
       <svg {...common}>
         <path d="M0 58 Q60 48 120 58 L120 80 L0 80 Z" fill="#C9A86A" opacity="0.35" />
-        <ellipse className="pop" cx="60" cy="60" rx="7" ry="10" fill="#8B6914" stroke="#6B4F14" strokeWidth="1.5" />
+        <g className="bob">
+          <ellipse className="pop" cx="60" cy="60" rx="7" ry="10" fill="#8B6914" stroke="#6B4F14" strokeWidth="1.5" />
+        </g>
         <circle className="fin" cx="44" cy="20" r="2.6" fill="#F5D78E" />
         <circle className="fin" cx="60" cy="13" r="2.1" fill="#F5D78E" />
         <circle className="fin" cx="76" cy="23" r="2.6" fill="#F5D78E" />
@@ -72,9 +74,11 @@ function Illustration({ stage }: { stage: number }) {
     return (
       <svg {...common}>
         <line x1="12" y1="34" x2="108" y2="34" stroke="#C9A86A" strokeWidth="1.5" strokeDasharray="4 4" />
-        <path className="draw" pathLength={1} d="M60 34 L60 22" stroke="#7FAE6B" strokeWidth="2.5" fill="none" strokeLinecap="round" />
-        <ellipse className="pop" cx="55" cy="21" rx="4" ry="2.4" fill="#8BBE76" />
-        <ellipse className="pop" cx="65" cy="21" rx="4" ry="2.4" fill="#7FAE6B" />
+        <g className="sway">
+          <path className="draw" pathLength={1} d="M60 34 L60 19" stroke="#7FAE6B" strokeWidth="2.5" fill="none" strokeLinecap="round" />
+          <ellipse className="pop" cx="54" cy="18" rx="5" ry="3" fill="#8BBE76" />
+          <ellipse className="pop" cx="66" cy="18" rx="5" ry="3" fill="#7FAE6B" />
+        </g>
         <path className="draw" pathLength={1} d="M60 34 C58 44 50 49 44 59" stroke="#8B6914" strokeWidth="2" fill="none" strokeLinecap="round" />
         <path className="draw" pathLength={1} d="M60 34 C62 46 70 50 76 60" stroke="#8B6914" strokeWidth="2" fill="none" strokeLinecap="round" />
         <path className="draw" pathLength={1} d="M60 34 C60 48 60 58 60 67" stroke="#8B6914" strokeWidth="1.8" fill="none" strokeLinecap="round" />
@@ -147,7 +151,7 @@ export default function JourneySection() {
           }
         });
       },
-      { threshold: 0.3 }
+      { threshold: 0.3, rootMargin: "0px 0px -20% 0px" }
     );
 
     rowRefs.current.forEach((el) => el && observer.observe(el));
