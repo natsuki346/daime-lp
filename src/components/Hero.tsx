@@ -82,7 +82,7 @@ export default function Hero() {
             </button>
 
             <span
-              className="hero-fade-in mt-2.5 rounded-full bg-daime-text px-4 py-1.5 text-xs font-medium tracking-wide text-daime-daisy"
+              className="hero-fade-in mt-2.5 rounded-full bg-daime-text px-[26px] py-[9px] text-sm font-medium tracking-wide text-daime-daisy"
               style={{ "--delay": "1.8s" } as React.CSSProperties}
             >
               {t("badge")}
