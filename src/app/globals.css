@@ -204,3 +204,236 @@ body {
     animation: none;
   }
 }
+
+/* --- JourneySection: scroll-triggered growth timeline --- */
+
+.journey-flow {
+  position: relative;
+}
+
+.center-track,
+.center-fill {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  width: 3px;
+  transform: translateX(-50%);
+  border-radius: 3px;
+  z-index: 0;
+}
+
+.center-track {
+  bottom: 0;
+  background: #d8c9a8;
+}
+
+.center-fill {
+  height: 0;
+  background: #4a7c59;
+  transition: height 0.7s ease;
+}
+
+.journey-row {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  padding: 26px 0;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+
+.journey-row.right {
+  flex-direction: row-reverse;
+}
+
+.journey-row.show {
+  opacity: 1;
+  transform: none;
+}
+
+.illus-col,
+.text-col {
+  width: calc(50% - 36px);
+}
+
+.dot-col {
+  width: 72px;
+  display: flex;
+  justify-content: center;
+}
+
+.journey-row.left .text-col {
+  text-align: left;
+}
+
+.journey-row.right .text-col {
+  text-align: right;
+}
+
+.journey-dot {
+  width: 46px;
+  height: 46px;
+  border-radius: 9999px;
+  background: #ede8df;
+  border: 2px solid #d8c9a8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: border-color 0.5s ease;
+}
+
+.journey-row.show .journey-dot {
+  border-color: #4a7c59;
+}
+
+.illus-box {
+  background: #ede8df;
+  border-radius: 16px;
+  padding: 12px;
+  aspect-ratio: 1.5 / 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* reveal sub-animations (trigger on .show) */
+.pop {
+  transform: scale(0);
+  transform-box: fill-box;
+  transform-origin: center;
+}
+.journey-row.show .pop {
+  animation: jpop 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) 0.7s forwards;
+}
+
+.draw {
+  stroke-dasharray: 1;
+  stroke-dashoffset: 1;
+}
+.journey-row.show .draw {
+  animation: jdraw 1.3s ease-out forwards;
+}
+
+.fin {
+  opacity: 0;
+}
+.journey-row.show .fin {
+  animation: jfin 0.6s ease-out 1s forwards;
+}
+
+/* looping (start after reveal, only once shown) */
+.sway {
+  transform-box: fill-box;
+  transform-origin: bottom;
+}
+.spin {
+  transform-box: fill-box;
+  transform-origin: center;
+}
+.journey-row.show .sway {
+  animation: j-sway 4s ease-in-out 1.3s infinite;
+}
+.journey-row.show .spin {
+  animation: j-spin 16s linear 1.3s infinite;
+}
+.journey-row.show .float {
+  animation: j-float 5s ease-in-out 1.3s infinite;
+}
+
+@keyframes jpop {
+  to {
+    transform: scale(1);
+  }
+}
+@keyframes jdraw {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes jfin {
+  to {
+    opacity: 1;
+  }
+}
+@keyframes j-sway {
+  0%,
+  100% {
+    transform: rotate(-2deg);
+  }
+  50% {
+    transform: rotate(2deg);
+  }
+}
+@keyframes j-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes j-float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+
+@media (max-width: 640px) {
+  .center-track,
+  .center-fill {
+    display: none;
+  }
+  .journey-row,
+  .journey-row.right {
+    flex-direction: column;
+    text-align: center;
+    padding: 18px 0;
+  }
+  .illus-col,
+  .text-col {
+    width: 100%;
+  }
+  .journey-row.left .text-col,
+  .journey-row.right .text-col {
+    text-align: center;
+  }
+  .illus-box {
+    max-width: 240px;
+    margin: 0 auto;
+  }
+  .dot-col {
+    width: auto;
+    margin: 10px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .journey-row {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+  .center-fill {
+    transition: none;
+  }
+  .pop {
+    transform: none;
+  }
+  .draw {
+    stroke-dashoffset: 0;
+  }
+  .fin {
+    opacity: 1;
+  }
+  .journey-row.show .pop,
+  .journey-row.show .draw,
+  .journey-row.show .fin,
+  .journey-row.show .sway,
+  .journey-row.show .spin,
+  .journey-row.show .float {
+    animation: none;
+  }
+}

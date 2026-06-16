@@ -55,6 +55,26 @@
     "seed_tag4": "#was a school refuser",
     "bridge": "Connect anonymously with people who share your tags. Your words become someone's place to belong."
   },
+  "journey": {
+    "label": "The DaiMe journey",
+    "title": "From a seed, into a flower.",
+    "stage1_name": "Sow the seed",
+    "stage1_self": "Know yourself",
+    "stage1_feature": "Put yourself into words with tags",
+    "stage1_quote": "\"Know thyself.\" — Socrates",
+    "stage2_name": "Roots grow",
+    "stage2_self": "Face yourself",
+    "stage2_feature": "Accept your weaknesses as seeds too",
+    "stage2_quote": "\"Look within.\" — Marcus Aurelius",
+    "stage3_name": "A sprout appears",
+    "stage3_self": "Awareness is born",
+    "stage3_feature": "Meet people who share your words",
+    "stage3_quote": "\"A person is a person through other people.\" — African proverb",
+    "stage4_name": "It blooms",
+    "stage4_self": "Accept who you've faced",
+    "stage4_feature": "Watch yourself grow in My Garden",
+    "stage4_quote": "\"Love yourself.\" — Buddha"
+  },
   "growth": {
     "label": "A story of growth",
     "title": "From a seed, into a flower.",

@@ -55,6 +55,26 @@
     "seed_tag4": "#不登校経験",
     "bridge": "同じタグを持つ人と、匿名で繋がれる。あなたの言葉が、誰かの居場所になる。"
   },
+  "journey": {
+    "label": "DaiMeの旅",
+    "title": "タネから、花になるまで。",
+    "stage1_name": "タネを蒔く",
+    "stage1_self": "自分を知る",
+    "stage1_feature": "タグで自分を言葉にする",
+    "stage1_quote": "「汝自身を知れ。」― ソクラテス",
+    "stage2_name": "根が伸びる",
+    "stage2_self": "自分と向き合う",
+    "stage2_feature": "弱さも、タネとして受け入れる",
+    "stage2_quote": "「自分の内側を見よ。」― マルクス・アウレリウス",
+    "stage3_name": "芽が出る",
+    "stage3_self": "気づきが生まれる",
+    "stage3_feature": "同じ言葉を持つ人と出会う",
+    "stage3_quote": "「人は人によって人になる。」― アフリカのことわざ",
+    "stage4_name": "花が咲く",
+    "stage4_self": "向き合えた自分を認める",
+    "stage4_feature": "My Gardenで成長を見る",
+    "stage4_quote": "「あなた自身を愛しなさい。」― ブッダ"
+  },
   "growth": {
     "label": "成長のものがたり",
     "title": "タネが、花になるまで。",

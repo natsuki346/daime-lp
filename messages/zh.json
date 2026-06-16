@@ -55,6 +55,26 @@
     "seed_tag4": "#曾拒绝上学",
     "bridge": "与拥有相同标签的人匿名相连。你的话语，会成为某个人的归属之地。"
   },
+  "journey": {
+    "label": "DaiMe 之旅",
+    "title": "从种子，到花朵。",
+    "stage1_name": "播下种子",
+    "stage1_self": "认识自己",
+    "stage1_feature": "用标签把自己化为语言",
+    "stage1_quote": "「认识你自己。」― 苏格拉底",
+    "stage2_name": "根系生长",
+    "stage2_self": "面对自己",
+    "stage2_feature": "把脆弱也当作种子接纳",
+    "stage2_quote": "「向内看。」― 马可·奥勒留",
+    "stage3_name": "发出新芽",
+    "stage3_self": "觉察诞生",
+    "stage3_feature": "遇见拥有相同话语的人",
+    "stage3_quote": "「人因他人而成为人。」― 非洲谚语",
+    "stage4_name": "花朵绽放",
+    "stage4_self": "认可面对过的自己",
+    "stage4_feature": "在 My Garden 见证成长",
+    "stage4_quote": "「爱你自己。」― 佛陀"
+  },
   "growth": {
     "label": "成长的故事",
     "title": "从种子，到花朵。",
